@@ -25,6 +25,7 @@ Tipología de accidentes: La colisión doble es, por mucho, el tipo de accidente
 Perfil de involucrados: Los hombres son los conductores más comúnmente implicados en accidentes. 
 
 Visualizaciones clave
+
 1. Accidentes por día de la semana: Se observa un pico claro los viernes y un valle los domingos. 
 
 2. Accidentes por distrito: Muestra la alta incidencia en distritos céntricos y de alta actividad como Salamanca. 
@@ -32,6 +33,7 @@ Visualizaciones clave
 3. Accidentes por tipo: La colisión doble domina las estadísticas, indicando que es el suceso más común en las calles de Madrid. 
 
 🧠 Metodología Predictiva
+
 Para la predicción se optó por un modelo de series temporales, específicamente un modelo ARIMA (Autoregressive Integrated Moving Average). 
 
 División de datos: El conjunto de datos se dividió en un set de entrenamiento (hasta septiembre de 2018) y uno de prueba (desde octubre de 2018 en adelante). 
@@ -41,7 +43,8 @@ Ajuste del modelo: Se utilizó la función auto_arima para encontrar los paráme
 Evaluación: El modelo se evaluó con el conjunto de prueba, obteniendo un Error Cuadrático Medio (RMSE) de 252.29. 
 
 
-🚀 Próximos Pasos
+🚀 Próximos pasos
+
 Para mejorar la precisión y utilidad del modelo, se proponen los siguientes pasos: 
 
 Ajustar parámetros ARIMA: Explorar manualmente diferentes configuraciones (p, d, q). 
