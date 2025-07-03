@@ -6,7 +6,7 @@ Este proyecto se enfoca en el análisis de datos de accidentes de tráfico ocurr
 El análisis completo y el desarrollo del modelo se realizaron utilizando Python y se documentan en el informe ejecutivo adjunto. 
 
 
-Link al código: https://colab.research.google.com/drive/1SOllyj7BAsbIKzgUwwSy4aEFgntrqLhg?usp=sharin g 
+Link al código: https://colab.research.google.com/drive/1SOllyj7BAsbIKzgUwwSy4aEFgntrqLhg?usp=sharing 
 
 📜 Descripción del proyecto
 El análisis utiliza un conjunto de datos del portal de datos abiertos del Ayuntamiento de Madrid, que incluye únicamente los accidentes con heridos o daños al patrimonio municipal. A través de técnicas de limpieza, análisis exploratorio y modelado de series temporales, se busca predecir la cantidad de accidentes en meses futuros. 
